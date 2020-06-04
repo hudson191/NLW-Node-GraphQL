@@ -1,0 +1,5 @@
+type Items{
+    id: ID
+    title: String
+    image_url: String
+} 
