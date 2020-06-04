@@ -1,5 +1,6 @@
 
 const knex = require('../database/connection')
+const Mutation = require('./mutation')
 
 module.exports = {
     Items:{
@@ -35,5 +36,6 @@ module.exports = {
             return null;
 
         }
-    }
+    },
+    Mutation
 } 

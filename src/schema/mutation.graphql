@@ -1,0 +1,16 @@
+type Mutation{
+    novoPoint(
+        name: String
+        image_url: String
+        email: String
+        whatsapp: String
+        latitude: String
+        longitude: String
+        city: String
+        uf: String
+        items: [ID]
+    ): Points
+    excluirPoint(
+        id: ID
+    ): Status
+}

@@ -5,7 +5,7 @@ type Points{
     email: String
     whatsapp: String
     latitude: String
-    logitute: String
+    longitude: String
     city: String
     uf: String
     items: [Items]
